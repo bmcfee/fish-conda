@@ -14,9 +14,27 @@ fisher bmcfee/fish-conda
 ```
 
 ## Usage
-
+List available environments:
 ```fish
-conda
+condalist
+```
+
+Activate an environment:
+```fish
+condactivate ENV_NAME
+```
+or
+```fish
+ca ENV_NAME
+```
+
+Deactivate an environment:
+```fish
+deactivate
+```
+or
+```fish
+cda
 ```
 
 [travis-link]: https://travis-ci.org/bmcfee/fish-conda
